@@ -29,6 +29,21 @@ git branch
 ```
 
 =======
-# j-github
-catatan github 
->>>>>>> 581bf76b94593fa1c816fa1b912ba4a260854c38
+# buat repo baru
+```
+echo "# priv" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/wdwdngrh/priv.git
+git push -u origin main
+```
+
+===
+# push repo yang sudah ada
+```
+git remote add origin https://github.com/wdwdngrh/priv.git
+git branch -M main
+git push -u origin main
+```
